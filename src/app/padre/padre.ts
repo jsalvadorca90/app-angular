@@ -7,4 +7,6 @@ import { Hijo } from './hijo/hijo';
   templateUrl: './padre.html',
   styleUrl: './padre.css',
 })
-export class Padre {}
+export class Padre {
+  mensajePadre: string = 'Mensaje desde el componente padre';
+}
