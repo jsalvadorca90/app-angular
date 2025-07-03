@@ -33,7 +33,8 @@ import { Padre } from './padre/padre';
   styleUrl: './app.css',
 })
 export class App {
-  protected titulo = 'Decorador @input en Angular';
+  protected titulo = 'Decorador @Output en Angular';
+  // protected titulo = 'Decorador @Input en Angular';
   // protected titulo = 'Directiva @for en Angular';
   // protected titulo = 'Local reference en Angular';
   // protected titulo = 'Directiva @if en Angular';
