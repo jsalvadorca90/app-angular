@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 // import { Interpolacion } from './interpolacion/interpolacion';
 // import { MostrarMensaje } from './mostrar-mensaje/mostrar-mensaje';
 // import { NuevoComponente } from './nuevo-componente/nuevo-componente';
+// import { Padre } from './padre/padre';
+// import { ViewChildC } from './view-child-c/view-child-c';
 import { Padre } from './padre/padre';
 // import { Replicador } from './replicador/replicador';
 // import { Saludar } from './saludar/saludar';
@@ -20,20 +22,16 @@ import { Padre } from './padre/padre';
     // NuevoComponente,
     // ComponenteEnLinea,
     // Interpolacion,
+    // Padre,
+    // ViewChildC,
     Padre,
-    // Hijo,
-    // MostrarMensaje,
-    // Replicador,
-    // Saludar,
-    // ComponenteIf,
-    // AgregarTarea,
-    // ComponenteFor,
   ],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
 export class App {
-  protected titulo = 'Decorador @Output en Angular';
+  protected titulo = 'Decorador @ViewChild en Angular';
+  // protected titulo = 'Decorador @Output en Angular';
   // protected titulo = 'Decorador @Input en Angular';
   // protected titulo = 'Directiva @for en Angular';
   // protected titulo = 'Local reference en Angular';
